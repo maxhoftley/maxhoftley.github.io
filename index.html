@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="render_list()">
+    <div class="page">
+
+        <header>
+            <nav class="header">
+                <h1 onclick="unlock('M')">M</h1>
+                <h1 onclick="unlock('E')">E</h1>
+                <h1 onclick="unlock('N')">N</h1>
+                <h1 onclick="unlock('U')">U</h1>
+            </nav>
+            <nav class="languages">
+                <h1 onclick="change_lang('en')" style="padding-right: 15px;">EN</h1>
+                <h1 onclick="change_lang('ua')">UA</h1>
+            </nav>
+        </header>
+
+        <div id="main_list">
+
+        </div>
+
+        <footer>
+            <p>Cocktails may not look like on the pictures</p>
+        </footer>
+    </div>
+</body>
+
+</html>
