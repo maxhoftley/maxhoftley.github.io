@@ -237,7 +237,7 @@ function generateRecipe(jsonData) {
     // Create the image element
     const image = document.createElement('img');
     image.src = `${jsonData.imageUrl}`;
-    image.alt = 'cocktail picture';
+    //image.alt = 'cocktail picture';
 
     // Create the div for text content
     const textContent = document.createElement('div');
